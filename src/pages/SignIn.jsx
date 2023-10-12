@@ -3,25 +3,25 @@ import React from 'react'
 const SignIn = () => {
   return (
 
-    <section className="signin flex flex-row justify-start h-[1250px] w-full">
+    <section className="signin flex flex-row justify-start h-[1080px] w-full">
 
       
 
-        <div className="left bg-[#4083F3] flex flex-col ml-[-239px] w-3/5 -skew-x-[8deg]">
+        <div className="left bg-[#4083F3] flex flex-col ml-[-227px] w-3/5 -skew-x-[8deg]">
 
-          <div className='flex flex-col ml-[295px] skew-x-[8deg] h-full'>
+          <div className='flex flex-col ml-[297px] skew-x-[8deg] h-full'>
 
-            <div className='logo text-white text-[25.5px] font-[700] tracking-[1.5px] mt-[58px]'>
+            <div className='logo text-white text-[25px] font-[700] tracking-[1.5px] mt-[55px]'>
               LOGO
             </div>
 
-            <div className='board text-white text-[80px] font-[700] tracking-[2px] mt-[390px] ml-[110px]'>
+            <div className='board text-white text-[80px] font-[700] tracking-[2px] mt-[380px] ml-[110px]'>
               Board.
             </div>
 
-            <div className='flex flex-row mt-[390px] ml-[40px]'>
+            <div className='flex flex-row items-center gap-[40px] mt-[364px] ml-[78px]'>
 
-              <img src="src\assets\github.png" alt="github" className='w-[45px] h-[45px]'/>
+              <img src="src\assets\github.png" alt="github" className='w-[46px] h-[46px]'/>
 
               <img src="src\assets\twitter.png" alt="twitter" className='w-[45px] h-[45px] rounded-full' />
 
