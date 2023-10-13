@@ -37,14 +37,14 @@ const SignIn = () => {
 
       <div className='right bg-[#F8FAFF]'>
 
-        <div className='flex flex-col ml-[172px] h-full'>
+        <div className='flex flex-col gap-[30px] ml-[182px] h-full'>
 
           <div>
-            <div className='text-[38.5px] font-[700] mt-[238px] tracking-[1.5px]'>Sign In</div>
-            <div className='font-[500] text-[16px] mt-[5px]'>Sign in to your account</div>
+            <div className='text-[40px] font-[700] mt-[238px] tracking-[1.5px]'>Sign In</div>
+            <div className='font-[400] text-[17px] mt-[5px]'>Sign in to your account</div>
           </div>
 
-          <div className='flex flex-row items-center gap-[40px]'>
+          <div className='flex flex-row items-center gap-[30px]'>
 
             <div className='h-[30px] w-[210px] flex flex-row justify-center items-center gap-[15px] bg-[#ffffff] rounded-[20px]'>
               <img src="src\assets\google.png" alt="google" className='w-[18px] h-[18px]'/>
@@ -57,26 +57,27 @@ const SignIn = () => {
             </div>
 
           </div>
+          
+          <form action="" className='flex flex-col gap-[20px] w-[440px] h-[365px] bg-[white] rounded-[18px]'>
 
-          <form action="">
-            <div>
-              <label>Email address</label>
-              <input type="text" name="email" id="email" placeholder='Enter email address' />
+            <div className='flex flex-col ml-[30px] mr-[30px] mt-[30px] gap-[9px]'>
+              <label className='font-[500] text-[17.5px]'>Email address</label>
+              <input type="text" name="email" id="email" placeholder='Enter email address' className='rounded-[10px] h-[45px] bg-[#EAEAEA] text-[17px] pl-[20px]'/>
             </div>
 
-            <div>
-              <label>Password</label>
-              <input type="password" name="password" id="password" placeholder='Enter Password' />
+            <div className='flex flex-col ml-[30px] mr-[30px] gap-[9px]'>
+              <label className='font-[500] text-[17.5px]'>Password</label>
+              <input type="password" name="password" id="password" placeholder='Enter password' className='rounded-[10px] bg-[#EAEAEA] text-[17px] h-[45px] pl-[20px]'/>
             </div>
 
-            <div>Forgot password?</div>
+            <div className='ml-[30px] mr-[30px] text-[17px] font-[500] text-[#4083F3]'>Forgot password?</div>
 
-            <button type="submit" className='bg-[#4083F3] text-[white]'>Sign In</button>
+            <button type="submit" className='rounded-[10px] text-[17px] font-[600] tracking-[1px] h-[45px] bg-[#4083F3] text-[white] ml-[30px] mr-[30px] flex flex-row justify-center items-center w-[380px]'>Sign In</button>
 
           </form>
 
-          <div>
-            Don't have an account? <span className='text-[#4083F3]'>Register here</span>
+          <div className='text-[17px] font-[600] text-[#a0a0a0] text-center'>
+            Don't have an account? <span className='text-[#4083F3] font-[600]'>Register here</span>
           </div>
 
         </div>
