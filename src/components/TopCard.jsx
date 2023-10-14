@@ -6,9 +6,9 @@ const TopCard = ({image, title, price, percent, color}) => {
 
   return (
 
-    <div className="text-[black] card w-[250px] bg-[white] shadow-xl p-[20px] cursor-pointer">
+    <div className="text-[black] card w-[250px] bg-[white] border-2 shadow-xl p-[20px] cursor-pointer">
 
-      <div className={`flex flex-row justify-center items-center w-[35px] h-[35px] bg-[${color}] rounded-full`}>
+      <div className={`flex flex-row justify-center items-center w-[35px] h-[35px] bg-[pink] rounded-full`}>
         <img src={image} alt="img" className='w-[22px] h-[22px] '/>
       </div>
 
