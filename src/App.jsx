@@ -1,10 +1,14 @@
 import React from 'react'
-import SignIn from './pages/Signin'
+import Home from './pages/Home'
+// import SignIn from './pages/SignIn'
+
+
 
 const App = () => {
   return (
     <div className='' >
-      <SignIn />
+      {/* <SignIn /> */}
+      <Home/>
     </div>
   )
 }
